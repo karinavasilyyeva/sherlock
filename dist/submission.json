@@ -550,7 +550,7 @@
       "confidence": "high",
       "aiProposal": "€90,000 September receipts are contract liabilities until delivery",
       "independentChallenge": "Agent 2 independently confirms €90,000 deposits relate to September performance and remain contract liabilities.",
-      "studentReasoning": "I classified the €90,000 customer deposits as a liability because the services had not yet been delivered, so the company still owed the customers future performance. Cash increased when the deposits were received, but no revenue or profit was recognised. The liability increased by €90,000, while equity remained unchanged.",
+      "studentReasoning": "Because both events were scheduled after 31 August, the €90,000 receipts did not qualify as August revenue. I left the cash in the bank balance and recorded the same amount as a contract liability; there is no current profit or equity effect.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -563,7 +563,7 @@
       "agent2Position": "Agent 2 independently confirms €90,000 deposits relate to September performance and remain contract liabilities.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I classified the €90,000 customer deposits as a liability because the services had not yet been delivered, so the company still owed the customers future performance. Cash increased when the deposits were received, but no revenue or profit was recognised. The liability increased by €90,000, while equity remained unchanged."
+      "columnG": "Because both events were scheduled after 31 August, the €90,000 receipts did not qualify as August revenue. I left the cash in the bank balance and recorded the same amount as a contract liability; there is no current profit or equity effect."
     },
     {
       "id": "D042",
@@ -578,7 +578,7 @@
       "confidence": "high",
       "aiProposal": "€50,000 new bank borrowing is a loan liability",
       "independentChallenge": "Agent 2 independently confirms the €50,000 advance is repayable bank borrowing.",
-      "studentReasoning": "I classified the €50,000 bank receipt as a loan liability because the company borrowed the money and must repay it. Cash and liabilities both increased by €50,000. No revenue or profit was recognised, so equity remained unchanged.",
+      "studentReasoning": "The bank agreement makes the €50,000 repayable, so I treated it as borrowing rather than income. The entry raises cash and the loan balance by €50,000 and leaves profit and equity unchanged.",
       "statementEffect": {
         "profit": -50000,
         "cash": 0,
@@ -591,7 +591,7 @@
       "agent2Position": "Agent 2 independently confirms the €50,000 advance is repayable bank borrowing.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I classified the €50,000 bank receipt as a loan liability because the company borrowed the money and must repay it. Cash and liabilities both increased by €50,000. No revenue or profit was recognised, so equity remained unchanged."
+      "columnG": "The bank agreement makes the €50,000 repayable, so I treated it as borrowing rather than income. The entry raises cash and the loan balance by €50,000 and leaves profit and equity unchanged."
     },
     {
       "id": "D043",
@@ -607,7 +607,7 @@
       "confidence": "high",
       "aiProposal": "Capitalise €60,000 packaging machine",
       "independentChallenge": "Agent 2 confirms the installed €60,000 machine is PPE, not a repair.",
-      "studentReasoning": "I capitalised the €60,000 packaging machine as PPE because it will be used for more than one accounting period. Cash decreases immediately, but the full €60,000 is not charged as an immediate expense. Profit and the asset’s carrying amount are reduced gradually through depreciation over its useful life.",
+      "studentReasoning": "This machine will be used beyond one period, which is why I put the €60,000 cost in PPE. The payment reduces cash now; the cost reaches profit gradually through depreciation instead of as a full immediate expense.",
       "statementEffect": {
         "profit": 60000,
         "cash": 0,
@@ -620,7 +620,7 @@
       "agent2Position": "Agent 2 confirms the installed €60,000 machine is PPE, not a repair.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I capitalised the €60,000 packaging machine as PPE because it will be used for more than one accounting period. Cash decreases immediately, but the full €60,000 is not charged as an immediate expense. Profit and the asset’s carrying amount are reduced gradually through depreciation over its useful life."
+      "columnG": "This machine will be used beyond one period, which is why I put the €60,000 cost in PPE. The payment reduces cash now; the cost reaches profit gradually through depreciation instead of as a full immediate expense."
     },
     {
       "id": "D044",
@@ -636,7 +636,7 @@
       "confidence": "high",
       "aiProposal": "Capitalise €20,000 photo booth",
       "independentChallenge": "Agent 2 confirms the €20,000 photo booth is PPE despite the marketing label.",
-      "studentReasoning": "I capitalised the €20,000 photo booth as PPE because it was purchased for long-term use at future events. Together with the €60,000 packaging machine, this gives €80,000 of equipment additions. Cash decreases immediately and PPE increases by €20,000, while profit is reduced gradually through depreciation rather than by an immediate €20,000 expense.",
+      "studentReasoning": "The photo booth is reusable at future events, not a one-off service. I therefore added €20,000 to PPE, taking total equipment additions to €80,000; cash falls on purchase, and profit is charged later through depreciation.",
       "statementEffect": {
         "profit": 20000,
         "cash": 0,
@@ -649,7 +649,7 @@
       "agent2Position": "Agent 2 confirms the €20,000 photo booth is PPE despite the marketing label.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I capitalised the €20,000 photo booth as PPE because it was purchased for long-term use at future events. Together with the €60,000 packaging machine, this gives €80,000 of equipment additions. Cash decreases immediately and PPE increases by €20,000, while profit is reduced gradually through depreciation rather than by an immediate €20,000 expense."
+      "columnG": "The photo booth is reusable at future events, not a one-off service. I therefore added €20,000 to PPE, taking total equipment additions to €80,000; cash falls on purchase, and profit is charged later through depreciation."
     },
     {
       "id": "D045",
@@ -665,7 +665,7 @@
       "confidence": "high",
       "aiProposal": "Expense €10,000 replacement belt and calibration",
       "independentChallenge": "Agent 2 confirms €10,000 belt and calibration restored normal output and should be expensed.",
-      "studentReasoning": "I recognised the €10,000 as an immediate repair expense because the belt replacement and calibration only restored the machine’s normal operation and did not create a new asset or improve its capacity. Cash and profit decrease by €10,000, while PPE does not increase.",
+      "studentReasoning": "Replacing the belt and recalibrating the machine only brought it back to normal working condition. I recorded the €10,000 as repair expense: cash and profit fall by €10,000, and no PPE is created.",
       "statementEffect": {
         "profit": -10000,
         "cash": 0,
@@ -678,7 +678,7 @@
       "agent2Position": "Agent 2 confirms €10,000 belt and calibration restored normal output and should be expensed.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I recognised the €10,000 as an immediate repair expense because the belt replacement and calibration only restored the machine’s normal operation and did not create a new asset or improve its capacity. Cash and profit decrease by €10,000, while PPE does not increase."
+      "columnG": "Replacing the belt and recalibrating the machine only brought it back to normal working condition. I recorded the €10,000 as repair expense: cash and profit fall by €10,000, and no PPE is created."
     },
     {
       "id": "D046",
@@ -693,7 +693,7 @@
       "confidence": "high",
       "aiProposal": "Classify €70,000 villa as owner distribution",
       "independentChallenge": "Agent 2 confirms €70,000 villa payment is personal and an owner distribution.",
-      "studentReasoning": "I classified the €70,000 villa deposit as an owner distribution because it was personal spending by the owner and was unrelated to the company’s business. Cash and equity decrease by €70,000, and owner distributions increase by €70,000. It is not an operating expense, so it does not reduce profit.",
+      "studentReasoning": "Nothing in the villa payment relates to DPI’s operations, so the €70,000 belongs in owner distributions. It reduces cash and equity, but not operating profit.",
       "statementEffect": {
         "profit": 70000,
         "cash": 0,
@@ -706,7 +706,7 @@
       "agent2Position": "Agent 2 confirms €70,000 villa payment is personal and an owner distribution.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I classified the €70,000 villa deposit as an owner distribution because it was personal spending by the owner and was unrelated to the company’s business. Cash and equity decrease by €70,000, and owner distributions increase by €70,000. It is not an operating expense, so it does not reduce profit."
+      "columnG": "Nothing in the villa payment relates to DPI’s operations, so the €70,000 belongs in owner distributions. It reduces cash and equity, but not operating profit."
     },
     {
       "id": "D047",
@@ -722,7 +722,7 @@
       "confidence": "high",
       "aiProposal": "Classify €40,000 owner-card spending as owner distribution",
       "independentChallenge": "Agent 2 confirms €40,000 owner card has no approved employment basis and is a distribution.",
-      "studentReasoning": "I classified the €40,000 owner-card spending as an owner distribution because there was no documented business purpose or basis for treating it as a company expense. Together with the €70,000 villa deposit, total owner distributions are €110,000. Cash and equity decrease, but profit is not reduced.",
+      "studentReasoning": "There was no business purpose or approved remuneration behind the €40,000 card spending. Added to the villa payment, it brings owner distributions to €110,000; cash and equity fall, while profit is not charged.",
       "statementEffect": {
         "profit": 40000,
         "cash": 0,
@@ -735,7 +735,7 @@
       "agent2Position": "Agent 2 confirms €40,000 owner card has no approved employment basis and is a distribution.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I classified the €40,000 owner-card spending as an owner distribution because there was no documented business purpose or basis for treating it as a company expense. Together with the €70,000 villa deposit, total owner distributions are €110,000. Cash and equity decrease, but profit is not reduced."
+      "columnG": "There was no business purpose or approved remuneration behind the €40,000 card spending. Added to the villa payment, it brings owner distributions to €110,000; cash and equity fall, while profit is not charged."
     },
     {
       "id": "D048",
@@ -750,7 +750,7 @@
       "confidence": "medium",
       "aiProposal": "Primary count-implied consumption €396,000, with €9,000 conflict disclosed.",
       "independentChallenge": "Agent 2 uses €405,000 operations consumption and a separate €9,000 unexplained count surplus; the net material charge remains €418,000.",
-      "studentReasoning": "I accepted €396,000 consumption because it is derived from the physical inventory count performed at 31 August and therefore directly measures the reporting-date stock. After adding the separate €22,000 damaged-stock write-down, material COGS is €418,000 and closing inventory is €121,000. This produces profit of €74,000 and closing equity of €134,000. The €405,000 operations record remains disclosed as an unresolved €9,000 sensitivity and is not mixed into the primary statements.",
+      "studentReasoning": "For inventory, I relied on the stock physically counted at 31 August. That supports €396,000 consumption; adding the separate €22,000 damage write-down gives €418,000 material COGS and €121,000 closing inventory, with profit of €74,000 and equity of €134,000. The €405,000 record stays only as a disclosed €9,000 uncertainty.",
       "statementEffect": {
         "profit": 9000,
         "cash": 0,
@@ -763,7 +763,7 @@
       "agent2Position": "Agent 2 uses €405,000 operations consumption and a separate €9,000 unexplained count surplus; the net material charge remains €418,000.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I accepted €396,000 consumption because it is derived from the physical inventory count performed at 31 August and therefore directly measures the reporting-date stock. After adding the separate €22,000 damaged-stock write-down, material COGS is €418,000 and closing inventory is €121,000. This produces profit of €74,000 and closing equity of €134,000. The €405,000 operations record remains disclosed as an unresolved €9,000 sensitivity and is not mixed into the primary statements."
+      "columnG": "For inventory, I relied on the stock physically counted at 31 August. That supports €396,000 consumption; adding the separate €22,000 damage write-down gives €418,000 material COGS and €121,000 closing inventory, with profit of €74,000 and equity of €134,000. The €405,000 record stays only as a disclosed €9,000 uncertainty."
     },
     {
       "id": "D049",
@@ -777,7 +777,7 @@
       "confidence": "high",
       "aiProposal": "Present €80,000 event-delivery payroll as direct cost of sales",
       "independentChallenge": "Agent 2 confirms €80,000 event-delivery staff cost belongs in direct service cost.",
-      "studentReasoning": "I classified the €80,000 event-staff payroll as a direct cost of sales because those employees were directly involved in delivering customer events. This increases COGS and reduces gross profit by €80,000. Compared with presenting the same amount as an operating expense, the classification changes gross profit and presentation, but it does not change total expenses or final net profit.",
+      "studentReasoning": "Event staff earned the €80,000 while delivering customer events, so I showed their payroll in cost of sales. This lowers gross profit and raises COGS by €80,000; moving it from operating expenses does not alter total expenses or final profit.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -790,7 +790,7 @@
       "agent2Position": "Agent 2 confirms €80,000 event-delivery staff cost belongs in direct service cost.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I classified the €80,000 event-staff payroll as a direct cost of sales because those employees were directly involved in delivering customer events. This increases COGS and reduces gross profit by €80,000. Compared with presenting the same amount as an operating expense, the classification changes gross profit and presentation, but it does not change total expenses or final net profit."
+      "columnG": "Event staff earned the €80,000 while delivering customer events, so I showed their payroll in cost of sales. This lowers gross profit and raises COGS by €80,000; moving it from operating expenses does not alter total expenses or final profit."
     },
     {
       "id": "D050",
@@ -870,7 +870,7 @@
       "confidence": "medium",
       "aiProposal": "Recognise €24,000 period depreciation",
       "independentChallenge": "Agent 2 confirms €24,000 depreciation but notes underlying useful lives were not supplied.",
-      "studentReasoning": "I accepted €24,000 depreciation because PPE is used over time and its cost should be allocated across the periods receiving its benefits. Depreciation expense and accumulated depreciation increase by €24,000, while profit, net PPE and equity decrease by €24,000. Cash is unaffected. I assigned medium confidence because the detailed useful-life schedule was not provided.",
+      "studentReasoning": "PPE is consumed over time, so the €24,000 estimate belongs in this period rather than being ignored. Accumulated depreciation goes up by €24,000, while profit, net PPE and equity go down by the same amount; cash does not move. I kept medium confidence because the detailed useful-life schedule is missing.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -883,7 +883,7 @@
       "agent2Position": "Agent 2 confirms €24,000 depreciation but notes underlying useful lives were not supplied.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I accepted €24,000 depreciation because PPE is used over time and its cost should be allocated across the periods receiving its benefits. Depreciation expense and accumulated depreciation increase by €24,000, while profit, net PPE and equity decrease by €24,000. Cash is unaffected. I assigned medium confidence because the detailed useful-life schedule was not provided."
+      "columnG": "PPE is consumed over time, so the €24,000 estimate belongs in this period rather than being ignored. Accumulated depreciation goes up by €24,000, while profit, net PPE and equity go down by the same amount; cash does not move. I kept medium confidence because the detailed useful-life schedule is missing."
     },
     {
       "id": "D057",
@@ -898,7 +898,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €18,000 R-17 bad-debt expense and AR write-off",
       "independentChallenge": "Agent 2 confirms the later R-17 liquidation notice corroborates an August impairment.",
-      "studentReasoning": "I wrote off the €18,000 R-17 receivable as bad debt because the customer’s financial problem already existed before 31 August, and the later information confirmed that reporting-date condition. Receivables, profit and equity decrease by €18,000. Cash is unaffected because this is a non-cash write-off.",
+      "studentReasoning": "R-17’s financial difficulty already existed at 31 August; the later liquidation evidence only confirmed it. I removed the full €18,000 receivable, reducing receivables, profit and equity by €18,000 without a cash movement.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -911,7 +911,7 @@
       "agent2Position": "Agent 2 confirms the later R-17 liquidation notice corroborates an August impairment.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I wrote off the €18,000 R-17 receivable as bad debt because the customer’s financial problem already existed before 31 August, and the later information confirmed that reporting-date condition. Receivables, profit and equity decrease by €18,000. Cash is unaffected because this is a non-cash write-off."
+      "columnG": "R-17’s financial difficulty already existed at 31 August; the later liquidation evidence only confirmed it. I removed the full €18,000 receivable, reducing receivables, profit and equity by €18,000 without a cash movement."
     },
     {
       "id": "D058",
@@ -926,7 +926,7 @@
       "confidence": "medium",
       "aiProposal": "Write down €22,000 stock and recognise €2,000 disposal provision.",
       "independentChallenge": "Agent 2 writes down €22,000 but rejects €2,000 provision because a future disposal quote does not establish a present obligation.",
-      "studentReasoning": "I wrote down the €22,000 damaged inventory because it was no longer saleable at 31 August. Inventory, profit and equity decrease by €22,000, while COGS increases; cash is unaffected. I disclosed but did not accrue the €2,000 disposal estimate because it was only a quote for a possible future cost, with insufficient evidence that the company had a present legal or contractual obligation at the reporting date.",
+      "studentReasoning": "At the reporting date, the €22,000 wet stock could not be sold, so carrying it at cost would overstate inventory. I charged €22,000 to COGS and reduced inventory, profit and equity. The €2,000 disposal quote is disclosed only because no current obligation was proved, leaving liabilities and cash unchanged.",
       "statementEffect": {
         "profit": 2000,
         "cash": 0,
@@ -939,7 +939,7 @@
       "agent2Position": "Agent 2 writes down €22,000 but rejects €2,000 provision because a future disposal quote does not establish a present obligation.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I wrote down the €22,000 damaged inventory because it was no longer saleable at 31 August. Inventory, profit and equity decrease by €22,000, while COGS increases; cash is unaffected. I disclosed but did not accrue the €2,000 disposal estimate because it was only a quote for a possible future cost, with insufficient evidence that the company had a present legal or contractual obligation at the reporting date."
+      "columnG": "At the reporting date, the €22,000 wet stock could not be sold, so carrying it at cost would overstate inventory. I charged €22,000 to COGS and reduced inventory, profit and equity. The €2,000 disposal quote is disclosed only because no current obligation was proved, leaving liabilities and cash unchanged."
     },
     {
       "id": "D059",
@@ -1030,7 +1030,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €180,000 NorthStar revenue on acceptance",
       "independentChallenge": "Agent 2 confirms €180,000 NorthStar revenue on February acceptance.",
-      "studentReasoning": "I recognised the €180,000 NorthStar revenue when the order was delivered and accepted because that is when the company satisfied its performance obligation. Revenue, profit and equity increase by €180,000 before related costs. The receipt increases cash and settles the receivable, but it is not recognised as additional revenue a second time.",
+      "studentReasoning": "Acceptance of the NorthStar order completed the earning process before period end. I recorded €180,000 revenue, increasing profit and equity before related costs; the payment merely converts the receivable to cash and is not a second sale.",
       "statementEffect": {
         "profit": 180000,
         "cash": 0,
@@ -1043,7 +1043,7 @@
       "agent2Position": "Agent 2 confirms €180,000 NorthStar revenue on February acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I recognised the €180,000 NorthStar revenue when the order was delivered and accepted because that is when the company satisfied its performance obligation. Revenue, profit and equity increase by €180,000 before related costs. The receipt increases cash and settles the receivable, but it is not recognised as additional revenue a second time."
+      "columnG": "Acceptance of the NorthStar order completed the earning process before period end. I recorded €180,000 revenue, increasing profit and equity before related costs; the payment merely converts the receivable to cash and is not a second sale."
     },
     {
       "id": "D065",
@@ -1059,7 +1059,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €200,000 Freedom revenue on acceptance",
       "independentChallenge": "Agent 2 confirms €200,000 Freedom revenue despite partial collection.",
-      "studentReasoning": "I recognised the full €200,000 Freedom revenue because the contract was completed and accepted before 31 August. Revenue, profit and equity increase by €200,000 before related costs. The €142,000 collected increases cash, while the unpaid €58,000 remains as accounts receivable; the cash receipt is not additional revenue.",
+      "studentReasoning": "Freedom had accepted the whole contract even though it had paid only part of the price. This supports €200,000 revenue: €142,000 appears as cash and €58,000 remains receivable, while profit and equity rise by €200,000 before related costs.",
       "statementEffect": {
         "profit": 200000,
         "cash": 0,
@@ -1072,7 +1072,7 @@
       "agent2Position": "Agent 2 confirms €200,000 Freedom revenue despite partial collection.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I recognised the full €200,000 Freedom revenue because the contract was completed and accepted before 31 August. Revenue, profit and equity increase by €200,000 before related costs. The €142,000 collected increases cash, while the unpaid €58,000 remains as accounts receivable; the cash receipt is not additional revenue."
+      "columnG": "Freedom had accepted the whole contract even though it had paid only part of the price. This supports €200,000 revenue: €142,000 appears as cash and €58,000 remains receivable, while profit and equity rise by €200,000 before related costs."
     },
     {
       "id": "D066",
@@ -1088,7 +1088,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €100,000 Phoenix revenue on event completion",
       "independentChallenge": "Agent 2 confirms €100,000 Phoenix revenue from completed event and customer email acceptance.",
-      "studentReasoning": "I recognised €100,000 revenue because the Phoenix event was fully delivered before 31 August. Cash increases by €70,000 and the unpaid €30,000 remains as accounts receivable. Before related event costs, profit and equity increase by €100,000.",
+      "studentReasoning": "The Phoenix service was finished by 31 August, so I accounted for the full €100,000 rather than only the money collected. The balance is €70,000 cash plus €30,000 receivable; revenue, profit and equity rise by €100,000 before related event costs.",
       "statementEffect": {
         "profit": 100000,
         "cash": 0,
@@ -1101,7 +1101,7 @@
       "agent2Position": "Agent 2 confirms €100,000 Phoenix revenue from completed event and customer email acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I recognised €100,000 revenue because the Phoenix event was fully delivered before 31 August. Cash increases by €70,000 and the unpaid €30,000 remains as accounts receivable. Before related event costs, profit and equity increase by €100,000."
+      "columnG": "The Phoenix service was finished by 31 August, so I accounted for the full €100,000 rather than only the money collected. The balance is €70,000 cash plus €30,000 receivable; revenue, profit and equity rise by €100,000 before related event costs."
     },
     {
       "id": "D067",
@@ -1117,7 +1117,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €120,000 Liberty revenue on delivery and acceptance",
       "independentChallenge": "Agent 2 confirms €120,000 Liberty revenue from delivery and express acceptance.",
-      "studentReasoning": "I recognised the full €120,000 Liberty revenue because the order was delivered and accepted before 31 August. Cash increases by €95,000 and the unpaid €25,000 remains as accounts receivable. Before related costs, profit and equity increase by €120,000. The €95,000 receipt settles part of the receivable and must not be counted as additional revenue.",
+      "studentReasoning": "Delivery and acceptance make the entire Liberty price earned. I split the €120,000 between €95,000 cash and a €25,000 receivable; that one sale raises revenue, profit and equity before costs, and the receipt is not counted again.",
       "statementEffect": {
         "profit": 120000,
         "cash": 0,
@@ -1130,7 +1130,7 @@
       "agent2Position": "Agent 2 confirms €120,000 Liberty revenue from delivery and express acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I recognised the full €120,000 Liberty revenue because the order was delivered and accepted before 31 August. Cash increases by €95,000 and the unpaid €25,000 remains as accounts receivable. Before related costs, profit and equity increase by €120,000. The €95,000 receipt settles part of the receivable and must not be counted as additional revenue."
+      "columnG": "Delivery and acceptance make the entire Liberty price earned. I split the €120,000 between €95,000 cash and a €25,000 receivable; that one sale raises revenue, profit and equity before costs, and the receipt is not counted again."
     },
     {
       "id": "D068",
@@ -1145,7 +1145,7 @@
       "confidence": "high",
       "aiProposal": "Exclude €90,000 September events from August revenue",
       "independentChallenge": "Agent 2 excludes both undelivered September events from August revenue.",
-      "studentReasoning": "I excluded the €90,000 September events from August revenue because the services had not been delivered by 31 August. Cash increases by €90,000 and contract liabilities increase by €90,000. There is no effect on profit or equity at receipt; compared with incorrectly recording the deposits as revenue, profit and equity are €90,000 lower.",
+      "studentReasoning": "Receiving cash in August does not make September work August revenue. I kept €90,000 out of revenue and placed it in contract liabilities. Cash and liabilities rise together, while profit and equity wait until the services are delivered.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -1158,7 +1158,7 @@
       "agent2Position": "Agent 2 excludes both undelivered September events from August revenue.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I excluded the €90,000 September events from August revenue because the services had not been delivered by 31 August. Cash increases by €90,000 and contract liabilities increase by €90,000. There is no effect on profit or equity at receipt; compared with incorrectly recording the deposits as revenue, profit and equity are €90,000 lower."
+      "columnG": "Receiving cash in August does not make September work August revenue. I kept €90,000 out of revenue and placed it in contract liabilities. Cash and liabilities rise together, while profit and equity wait until the services are delivered."
     },
     {
       "id": "D069",
@@ -1226,7 +1226,7 @@
       "confidence": "medium",
       "aiProposal": "Write off €22,000 damaged inventory and recognise €2,000 disposal provision.",
       "independentChallenge": "Agent 2 writes down €22,000, investigates €9,000 conflict, and does not accrue the disposal quote.",
-      "studentReasoning": "I selected a €22,000 write-down because this is the identified cost of the inventory that was already damaged and unsaleable at 31 August. I excluded the estimated €2,000 disposal cost because it is only a possible future cost and there is no evidence of a present obligation. Inventory, profit and equity decrease by €22,000, while liabilities and cash remain unchanged.",
+      "studentReasoning": "The €22,000 figure is the cost of specifically identified unsaleable stock, so I used it as the write-down. The separate €2,000 was only a possible later disposal cost, not a present obligation. Inventory, profit and equity therefore lose €22,000, while cash and liabilities are unaffected.",
       "statementEffect": {
         "profit": 2000,
         "cash": 0,
@@ -1239,7 +1239,7 @@
       "agent2Position": "Agent 2 writes down €22,000, investigates €9,000 conflict, and does not accrue the disposal quote.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I selected a €22,000 write-down because this is the identified cost of the inventory that was already damaged and unsaleable at 31 August. I excluded the estimated €2,000 disposal cost because it is only a possible future cost and there is no evidence of a present obligation. Inventory, profit and equity decrease by €22,000, while liabilities and cash remain unchanged."
+      "columnG": "The €22,000 figure is the cost of specifically identified unsaleable stock, so I used it as the write-down. The separate €2,000 was only a possible later disposal cost, not a present obligation. Inventory, profit and equity therefore lose €22,000, while cash and liabilities are unaffected."
     },
     {
       "id": "D073",
@@ -1310,7 +1310,7 @@
       "confidence": "medium",
       "aiProposal": "Closing inventory €121,000, with €9,000 conflict.",
       "independentChallenge": "Agent 2 uses €121,000 saleable counted inventory and presents €9,000 as an unresolved reconciliation item.",
-      "studentReasoning": "I accepted €121,000 as closing inventory because the physical count identified €143,000 of gross stock at 31 August, less €22,000 of unsaleable damaged inventory. This is consistent with my primary choice of €396,000 consumption. If the €405,000 consumption alternative is later confirmed, closing inventory would be €112,000, while profit and equity would each be €9,000 lower. Until resolved, the €9,000 difference remains separately disclosed rather than mixed into the primary statements.",
+      "studentReasoning": "I arrived at closing inventory directly from the count: €143,000 gross stock less €22,000 damaged stock equals €121,000. This agrees with the €396,000 consumption used in the primary case. If €405,000 is later proved, inventory, profit and equity would each be €9,000 lower; until then, the €112,000 alternative remains a disclosed sensitivity only.",
       "statementEffect": {
         "profit": 9000,
         "cash": 0,
@@ -1323,7 +1323,7 @@
       "agent2Position": "Agent 2 uses €121,000 saleable counted inventory and presents €9,000 as an unresolved reconciliation item.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
       "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
-      "columnG": "I accepted €121,000 as closing inventory because the physical count identified €143,000 of gross stock at 31 August, less €22,000 of unsaleable damaged inventory. This is consistent with my primary choice of €396,000 consumption. If the €405,000 consumption alternative is later confirmed, closing inventory would be €112,000, while profit and equity would each be €9,000 lower. Until resolved, the €9,000 difference remains separately disclosed rather than mixed into the primary statements."
+      "columnG": "I arrived at closing inventory directly from the count: €143,000 gross stock less €22,000 damaged stock equals €121,000. This agrees with the €396,000 consumption used in the primary case. If €405,000 is later proved, inventory, profit and equity would each be €9,000 lower; until then, the €112,000 alternative remains a disclosed sensitivity only."
     },
     {
       "id": "D076",
