@@ -550,7 +550,7 @@
       "confidence": "high",
       "aiProposal": "€90,000 September receipts are contract liabilities until delivery",
       "independentChallenge": "Agent 2 independently confirms €90,000 deposits relate to September performance and remain contract liabilities.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I classified the €90,000 customer deposits as a liability because the services had not yet been delivered, so the company still owed the customers future performance. Cash increased when the deposits were received, but no revenue or profit was recognised. The liability increased by €90,000, while equity remained unchanged.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -562,7 +562,8 @@
       "firstAIProposal": "€90,000 September receipts are contract liabilities until delivery",
       "agent2Position": "Agent 2 independently confirms €90,000 deposits relate to September performance and remain contract liabilities.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I classified the €90,000 customer deposits as a liability because the services had not yet been delivered, so the company still owed the customers future performance. Cash increased when the deposits were received, but no revenue or profit was recognised. The liability increased by €90,000, while equity remained unchanged."
     },
     {
       "id": "D042",
@@ -577,7 +578,7 @@
       "confidence": "high",
       "aiProposal": "€50,000 new bank borrowing is a loan liability",
       "independentChallenge": "Agent 2 independently confirms the €50,000 advance is repayable bank borrowing.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I classified the €50,000 bank receipt as a loan liability because the company borrowed the money and must repay it. Cash and liabilities both increased by €50,000. No revenue or profit was recognised, so equity remained unchanged.",
       "statementEffect": {
         "profit": -50000,
         "cash": 0,
@@ -589,7 +590,8 @@
       "firstAIProposal": "€50,000 new bank borrowing is a loan liability",
       "agent2Position": "Agent 2 independently confirms the €50,000 advance is repayable bank borrowing.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I classified the €50,000 bank receipt as a loan liability because the company borrowed the money and must repay it. Cash and liabilities both increased by €50,000. No revenue or profit was recognised, so equity remained unchanged."
     },
     {
       "id": "D043",
@@ -605,7 +607,7 @@
       "confidence": "high",
       "aiProposal": "Capitalise €60,000 packaging machine",
       "independentChallenge": "Agent 2 confirms the installed €60,000 machine is PPE, not a repair.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I capitalised the €60,000 packaging machine as PPE because it will be used for more than one accounting period. Cash decreases immediately, but the full €60,000 is not charged as an immediate expense. Profit and the asset’s carrying amount are reduced gradually through depreciation over its useful life.",
       "statementEffect": {
         "profit": 60000,
         "cash": 0,
@@ -617,7 +619,8 @@
       "firstAIProposal": "Capitalise €60,000 packaging machine",
       "agent2Position": "Agent 2 confirms the installed €60,000 machine is PPE, not a repair.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I capitalised the €60,000 packaging machine as PPE because it will be used for more than one accounting period. Cash decreases immediately, but the full €60,000 is not charged as an immediate expense. Profit and the asset’s carrying amount are reduced gradually through depreciation over its useful life."
     },
     {
       "id": "D044",
@@ -633,7 +636,7 @@
       "confidence": "high",
       "aiProposal": "Capitalise €20,000 photo booth",
       "independentChallenge": "Agent 2 confirms the €20,000 photo booth is PPE despite the marketing label.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I capitalised the €20,000 photo booth as PPE because it was purchased for long-term use at future events. Together with the €60,000 packaging machine, this gives €80,000 of equipment additions. Cash decreases immediately and PPE increases by €20,000, while profit is reduced gradually through depreciation rather than by an immediate €20,000 expense.",
       "statementEffect": {
         "profit": 20000,
         "cash": 0,
@@ -645,7 +648,8 @@
       "firstAIProposal": "Capitalise €20,000 photo booth",
       "agent2Position": "Agent 2 confirms the €20,000 photo booth is PPE despite the marketing label.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I capitalised the €20,000 photo booth as PPE because it was purchased for long-term use at future events. Together with the €60,000 packaging machine, this gives €80,000 of equipment additions. Cash decreases immediately and PPE increases by €20,000, while profit is reduced gradually through depreciation rather than by an immediate €20,000 expense."
     },
     {
       "id": "D045",
@@ -661,7 +665,7 @@
       "confidence": "high",
       "aiProposal": "Expense €10,000 replacement belt and calibration",
       "independentChallenge": "Agent 2 confirms €10,000 belt and calibration restored normal output and should be expensed.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I recognised the €10,000 as an immediate repair expense because the belt replacement and calibration only restored the machine’s normal operation and did not create a new asset or improve its capacity. Cash and profit decrease by €10,000, while PPE does not increase.",
       "statementEffect": {
         "profit": -10000,
         "cash": 0,
@@ -673,7 +677,8 @@
       "firstAIProposal": "Expense €10,000 replacement belt and calibration",
       "agent2Position": "Agent 2 confirms €10,000 belt and calibration restored normal output and should be expensed.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I recognised the €10,000 as an immediate repair expense because the belt replacement and calibration only restored the machine’s normal operation and did not create a new asset or improve its capacity. Cash and profit decrease by €10,000, while PPE does not increase."
     },
     {
       "id": "D046",
@@ -688,7 +693,7 @@
       "confidence": "high",
       "aiProposal": "Classify €70,000 villa as owner distribution",
       "independentChallenge": "Agent 2 confirms €70,000 villa payment is personal and an owner distribution.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I classified the €70,000 villa deposit as an owner distribution because it was personal spending by the owner and was unrelated to the company’s business. Cash and equity decrease by €70,000, and owner distributions increase by €70,000. It is not an operating expense, so it does not reduce profit.",
       "statementEffect": {
         "profit": 70000,
         "cash": 0,
@@ -700,7 +705,8 @@
       "firstAIProposal": "Classify €70,000 villa as owner distribution",
       "agent2Position": "Agent 2 confirms €70,000 villa payment is personal and an owner distribution.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I classified the €70,000 villa deposit as an owner distribution because it was personal spending by the owner and was unrelated to the company’s business. Cash and equity decrease by €70,000, and owner distributions increase by €70,000. It is not an operating expense, so it does not reduce profit."
     },
     {
       "id": "D047",
@@ -716,7 +722,7 @@
       "confidence": "high",
       "aiProposal": "Classify €40,000 owner-card spending as owner distribution",
       "independentChallenge": "Agent 2 confirms €40,000 owner card has no approved employment basis and is a distribution.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I classified the €40,000 owner-card spending as an owner distribution because there was no documented business purpose or basis for treating it as a company expense. Together with the €70,000 villa deposit, total owner distributions are €110,000. Cash and equity decrease, but profit is not reduced.",
       "statementEffect": {
         "profit": 40000,
         "cash": 0,
@@ -728,7 +734,8 @@
       "firstAIProposal": "Classify €40,000 owner-card spending as owner distribution",
       "agent2Position": "Agent 2 confirms €40,000 owner card has no approved employment basis and is a distribution.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I classified the €40,000 owner-card spending as an owner distribution because there was no documented business purpose or basis for treating it as a company expense. Together with the €70,000 villa deposit, total owner distributions are €110,000. Cash and equity decrease, but profit is not reduced."
     },
     {
       "id": "D048",
@@ -743,7 +750,7 @@
       "confidence": "medium",
       "aiProposal": "Primary count-implied consumption €396,000, with €9,000 conflict disclosed.",
       "independentChallenge": "Agent 2 uses €405,000 operations consumption and a separate €9,000 unexplained count surplus; the net material charge remains €418,000.",
-      "studentReasoning": "I certify the count-based treatment. Opening inventory of €80,000 plus €459,000 purchases less the €143,000 physical gross count gives €396,000 consumption. The count is direct reporting-date evidence. The €405,000 operations note is a conflicting flow record, so its €9,000 effect is disclosed as a sensitivity rather than mixed into the primary statements.",
+      "studentReasoning": "I accepted €396,000 consumption because it is derived from the physical inventory count performed at 31 August and therefore directly measures the reporting-date stock. After adding the separate €22,000 damaged-stock write-down, material COGS is €418,000 and closing inventory is €121,000. This produces profit of €74,000 and closing equity of €134,000. The €405,000 operations record remains disclosed as an unresolved €9,000 sensitivity and is not mixed into the primary statements.",
       "statementEffect": {
         "profit": 9000,
         "cash": 0,
@@ -755,7 +762,8 @@
       "firstAIProposal": "Primary count-implied consumption €396,000, with €9,000 conflict disclosed.",
       "agent2Position": "Agent 2 uses €405,000 operations consumption and a separate €9,000 unexplained count surplus; the net material charge remains €418,000.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I accepted €396,000 consumption because it is derived from the physical inventory count performed at 31 August and therefore directly measures the reporting-date stock. After adding the separate €22,000 damaged-stock write-down, material COGS is €418,000 and closing inventory is €121,000. This produces profit of €74,000 and closing equity of €134,000. The €405,000 operations record remains disclosed as an unresolved €9,000 sensitivity and is not mixed into the primary statements."
     },
     {
       "id": "D049",
@@ -769,7 +777,7 @@
       "confidence": "high",
       "aiProposal": "Present €80,000 event-delivery payroll as direct cost of sales",
       "independentChallenge": "Agent 2 confirms €80,000 event-delivery staff cost belongs in direct service cost.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I classified the €80,000 event-staff payroll as a direct cost of sales because those employees were directly involved in delivering customer events. This increases COGS and reduces gross profit by €80,000. Compared with presenting the same amount as an operating expense, the classification changes gross profit and presentation, but it does not change total expenses or final net profit.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -781,7 +789,8 @@
       "firstAIProposal": "Present €80,000 event-delivery payroll as direct cost of sales",
       "agent2Position": "Agent 2 confirms €80,000 event-delivery staff cost belongs in direct service cost.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I classified the €80,000 event-staff payroll as a direct cost of sales because those employees were directly involved in delivering customer events. This increases COGS and reduces gross profit by €80,000. Compared with presenting the same amount as an operating expense, the classification changes gross profit and presentation, but it does not change total expenses or final net profit."
     },
     {
       "id": "D050",
@@ -861,7 +870,7 @@
       "confidence": "medium",
       "aiProposal": "Recognise €24,000 period depreciation",
       "independentChallenge": "Agent 2 confirms €24,000 depreciation but notes underlying useful lives were not supplied.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I accepted €24,000 depreciation because PPE is used over time and its cost should be allocated across the periods receiving its benefits. Depreciation expense and accumulated depreciation increase by €24,000, while profit, net PPE and equity decrease by €24,000. Cash is unaffected. I assigned medium confidence because the detailed useful-life schedule was not provided.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -873,7 +882,8 @@
       "firstAIProposal": "Recognise €24,000 period depreciation",
       "agent2Position": "Agent 2 confirms €24,000 depreciation but notes underlying useful lives were not supplied.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I accepted €24,000 depreciation because PPE is used over time and its cost should be allocated across the periods receiving its benefits. Depreciation expense and accumulated depreciation increase by €24,000, while profit, net PPE and equity decrease by €24,000. Cash is unaffected. I assigned medium confidence because the detailed useful-life schedule was not provided."
     },
     {
       "id": "D057",
@@ -888,7 +898,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €18,000 R-17 bad-debt expense and AR write-off",
       "independentChallenge": "Agent 2 confirms the later R-17 liquidation notice corroborates an August impairment.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I wrote off the €18,000 R-17 receivable as bad debt because the customer’s financial problem already existed before 31 August, and the later information confirmed that reporting-date condition. Receivables, profit and equity decrease by €18,000. Cash is unaffected because this is a non-cash write-off.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -900,7 +910,8 @@
       "firstAIProposal": "Recognise €18,000 R-17 bad-debt expense and AR write-off",
       "agent2Position": "Agent 2 confirms the later R-17 liquidation notice corroborates an August impairment.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I wrote off the €18,000 R-17 receivable as bad debt because the customer’s financial problem already existed before 31 August, and the later information confirmed that reporting-date condition. Receivables, profit and equity decrease by €18,000. Cash is unaffected because this is a non-cash write-off."
     },
     {
       "id": "D058",
@@ -915,7 +926,7 @@
       "confidence": "medium",
       "aiProposal": "Write down €22,000 stock and recognise €2,000 disposal provision.",
       "independentChallenge": "Agent 2 writes down €22,000 but rejects €2,000 provision because a future disposal quote does not establish a present obligation.",
-      "studentReasoning": "The €22,000 stock is unsaleable at 31 August. The later €2,000 quote estimates possible removal cost but does not establish a contract, legal duty, or completed service at that date; disclose the cost and revisit if obligation evidence appears.",
+      "studentReasoning": "I wrote down the €22,000 damaged inventory because it was no longer saleable at 31 August. Inventory, profit and equity decrease by €22,000, while COGS increases; cash is unaffected. I disclosed but did not accrue the €2,000 disposal estimate because it was only a quote for a possible future cost, with insufficient evidence that the company had a present legal or contractual obligation at the reporting date.",
       "statementEffect": {
         "profit": 2000,
         "cash": 0,
@@ -927,7 +938,8 @@
       "firstAIProposal": "Write down €22,000 stock and recognise €2,000 disposal provision.",
       "agent2Position": "Agent 2 writes down €22,000 but rejects €2,000 provision because a future disposal quote does not establish a present obligation.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I wrote down the €22,000 damaged inventory because it was no longer saleable at 31 August. Inventory, profit and equity decrease by €22,000, while COGS increases; cash is unaffected. I disclosed but did not accrue the €2,000 disposal estimate because it was only a quote for a possible future cost, with insufficient evidence that the company had a present legal or contractual obligation at the reporting date."
     },
     {
       "id": "D059",
@@ -942,7 +954,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €25,000 probable employee-claim provision",
       "independentChallenge": "Agent 2 confirms €25,000 legal provision from counsel’s reporting-date probable claim.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I recognised a €25,000 provision rather than only disclose the risk because there is a present obligation, payment is probable, and the amount can be reliably estimated. €25,000 is the best estimate within the €20,000–€30,000 range. The provision reduces profit and equity by €25,000 and increases liabilities by €25,000. Cash is not affected until the claim is actually paid.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -954,7 +966,8 @@
       "firstAIProposal": "Recognise €25,000 probable employee-claim provision",
       "agent2Position": "Agent 2 confirms €25,000 legal provision from counsel’s reporting-date probable claim.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I recognised a €25,000 provision rather than only disclose the risk because there is a present obligation, payment is probable, and the amount can be reliably estimated. €25,000 is the best estimate within the €20,000–€30,000 range. The provision reduces profit and equity by €25,000 and increases liabilities by €25,000. Cash is not affected until the claim is actually paid."
     },
     {
       "id": "D060",
@@ -1017,7 +1030,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €180,000 NorthStar revenue on acceptance",
       "independentChallenge": "Agent 2 confirms €180,000 NorthStar revenue on February acceptance.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I recognised the €180,000 NorthStar revenue when the order was delivered and accepted because that is when the company satisfied its performance obligation. Revenue, profit and equity increase by €180,000 before related costs. The receipt increases cash and settles the receivable, but it is not recognised as additional revenue a second time.",
       "statementEffect": {
         "profit": 180000,
         "cash": 0,
@@ -1029,7 +1042,8 @@
       "firstAIProposal": "Recognise €180,000 NorthStar revenue on acceptance",
       "agent2Position": "Agent 2 confirms €180,000 NorthStar revenue on February acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I recognised the €180,000 NorthStar revenue when the order was delivered and accepted because that is when the company satisfied its performance obligation. Revenue, profit and equity increase by €180,000 before related costs. The receipt increases cash and settles the receivable, but it is not recognised as additional revenue a second time."
     },
     {
       "id": "D065",
@@ -1045,7 +1059,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €200,000 Freedom revenue on acceptance",
       "independentChallenge": "Agent 2 confirms €200,000 Freedom revenue despite partial collection.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I recognised the full €200,000 Freedom revenue because the contract was completed and accepted before 31 August. Revenue, profit and equity increase by €200,000 before related costs. The €142,000 collected increases cash, while the unpaid €58,000 remains as accounts receivable; the cash receipt is not additional revenue.",
       "statementEffect": {
         "profit": 200000,
         "cash": 0,
@@ -1057,7 +1071,8 @@
       "firstAIProposal": "Recognise €200,000 Freedom revenue on acceptance",
       "agent2Position": "Agent 2 confirms €200,000 Freedom revenue despite partial collection.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I recognised the full €200,000 Freedom revenue because the contract was completed and accepted before 31 August. Revenue, profit and equity increase by €200,000 before related costs. The €142,000 collected increases cash, while the unpaid €58,000 remains as accounts receivable; the cash receipt is not additional revenue."
     },
     {
       "id": "D066",
@@ -1073,7 +1088,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €100,000 Phoenix revenue on event completion",
       "independentChallenge": "Agent 2 confirms €100,000 Phoenix revenue from completed event and customer email acceptance.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I recognised €100,000 revenue because the Phoenix event was fully delivered before 31 August. Cash increases by €70,000 and the unpaid €30,000 remains as accounts receivable. Before related event costs, profit and equity increase by €100,000.",
       "statementEffect": {
         "profit": 100000,
         "cash": 0,
@@ -1085,7 +1100,8 @@
       "firstAIProposal": "Recognise €100,000 Phoenix revenue on event completion",
       "agent2Position": "Agent 2 confirms €100,000 Phoenix revenue from completed event and customer email acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I recognised €100,000 revenue because the Phoenix event was fully delivered before 31 August. Cash increases by €70,000 and the unpaid €30,000 remains as accounts receivable. Before related event costs, profit and equity increase by €100,000."
     },
     {
       "id": "D067",
@@ -1101,7 +1117,7 @@
       "confidence": "high",
       "aiProposal": "Recognise €120,000 Liberty revenue on delivery and acceptance",
       "independentChallenge": "Agent 2 confirms €120,000 Liberty revenue from delivery and express acceptance.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I recognised the full €120,000 Liberty revenue because the order was delivered and accepted before 31 August. Cash increases by €95,000 and the unpaid €25,000 remains as accounts receivable. Before related costs, profit and equity increase by €120,000. The €95,000 receipt settles part of the receivable and must not be counted as additional revenue.",
       "statementEffect": {
         "profit": 120000,
         "cash": 0,
@@ -1113,7 +1129,8 @@
       "firstAIProposal": "Recognise €120,000 Liberty revenue on delivery and acceptance",
       "agent2Position": "Agent 2 confirms €120,000 Liberty revenue from delivery and express acceptance.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I recognised the full €120,000 Liberty revenue because the order was delivered and accepted before 31 August. Cash increases by €95,000 and the unpaid €25,000 remains as accounts receivable. Before related costs, profit and equity increase by €120,000. The €95,000 receipt settles part of the receivable and must not be counted as additional revenue."
     },
     {
       "id": "D068",
@@ -1128,7 +1145,7 @@
       "confidence": "high",
       "aiProposal": "Exclude €90,000 September events from August revenue",
       "independentChallenge": "Agent 2 excludes both undelivered September events from August revenue.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I excluded the €90,000 September events from August revenue because the services had not been delivered by 31 August. Cash increases by €90,000 and contract liabilities increase by €90,000. There is no effect on profit or equity at receipt; compared with incorrectly recording the deposits as revenue, profit and equity are €90,000 lower.",
       "statementEffect": {
         "profit": -90000,
         "cash": 0,
@@ -1140,7 +1157,8 @@
       "firstAIProposal": "Exclude €90,000 September events from August revenue",
       "agent2Position": "Agent 2 excludes both undelivered September events from August revenue.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I excluded the €90,000 September events from August revenue because the services had not been delivered by 31 August. Cash increases by €90,000 and contract liabilities increase by €90,000. There is no effect on profit or equity at receipt; compared with incorrectly recording the deposits as revenue, profit and equity are €90,000 lower."
     },
     {
       "id": "D069",
@@ -1180,7 +1198,7 @@
       "confidence": "high",
       "aiProposal": "Write off R-17 €18,000 with no expected recovery",
       "independentChallenge": "Agent 2 confirms the €18,000 R-17 receivable has no expected recovery.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I chose a full €18,000 write-off because the evidence showed that R-17 was insolvent and in liquidation, supporting an expected recovery of zero. A partial allowance would only be appropriate if some recovery were expected. Net receivables decrease from €186,000 to €168,000, while profit and equity decrease by €18,000. There is no immediate cash effect.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -1192,7 +1210,8 @@
       "firstAIProposal": "Write off R-17 €18,000 with no expected recovery",
       "agent2Position": "Agent 2 confirms the €18,000 R-17 receivable has no expected recovery.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I chose a full €18,000 write-off because the evidence showed that R-17 was insolvent and in liquidation, supporting an expected recovery of zero. A partial allowance would only be appropriate if some recovery were expected. Net receivables decrease from €186,000 to €168,000, while profit and equity decrease by €18,000. There is no immediate cash effect."
     },
     {
       "id": "D072",
@@ -1207,7 +1226,7 @@
       "confidence": "medium",
       "aiProposal": "Write off €22,000 damaged inventory and recognise €2,000 disposal provision.",
       "independentChallenge": "Agent 2 writes down €22,000, investigates €9,000 conflict, and does not accrue the disposal quote.",
-      "studentReasoning": "The €22,000 stock is unsaleable at 31 August. The later €2,000 quote estimates possible removal cost but does not establish a contract, legal duty, or completed service at that date; disclose the cost and revisit if obligation evidence appears.",
+      "studentReasoning": "I selected a €22,000 write-down because this is the identified cost of the inventory that was already damaged and unsaleable at 31 August. I excluded the estimated €2,000 disposal cost because it is only a possible future cost and there is no evidence of a present obligation. Inventory, profit and equity decrease by €22,000, while liabilities and cash remain unchanged.",
       "statementEffect": {
         "profit": 2000,
         "cash": 0,
@@ -1219,7 +1238,8 @@
       "firstAIProposal": "Write off €22,000 damaged inventory and recognise €2,000 disposal provision.",
       "agent2Position": "Agent 2 writes down €22,000, investigates €9,000 conflict, and does not accrue the disposal quote.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I selected a €22,000 write-down because this is the identified cost of the inventory that was already damaged and unsaleable at 31 August. I excluded the estimated €2,000 disposal cost because it is only a possible future cost and there is no evidence of a present obligation. Inventory, profit and equity decrease by €22,000, while liabilities and cash remain unchanged."
     },
     {
       "id": "D073",
@@ -1234,7 +1254,7 @@
       "confidence": "high",
       "aiProposal": "Legal provision €25,000; reasonable estimate range €20,000–€30,000",
       "independentChallenge": "Agent 2 accepts counsel’s €25,000 best estimate within the €20,000–€30,000 range.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I selected €25,000 because it is the midpoint of the €20,000–€30,000 estimate range and represents the best available estimate. The uncertainty concerns the amount, not whether the obligation exists. At €20,000, profit and equity would be €5,000 higher and liabilities €5,000 lower; at €30,000, profit and equity would be €5,000 lower and liabilities €5,000 higher. Cash at 31 August is unaffected because the claim has not yet been paid.",
       "statementEffect": {
         "profit": -25000,
         "cash": 0,
@@ -1246,7 +1266,8 @@
       "firstAIProposal": "Legal provision €25,000; reasonable estimate range €20,000–€30,000",
       "agent2Position": "Agent 2 accepts counsel’s €25,000 best estimate within the €20,000–€30,000 range.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I selected €25,000 because it is the midpoint of the €20,000–€30,000 estimate range and represents the best available estimate. The uncertainty concerns the amount, not whether the obligation exists. At €20,000, profit and equity would be €5,000 higher and liabilities €5,000 lower; at €30,000, profit and equity would be €5,000 lower and liabilities €5,000 higher. Cash at 31 August is unaffected because the claim has not yet been paid."
     },
     {
       "id": "D074",
@@ -1260,7 +1281,7 @@
       "confidence": "medium",
       "aiProposal": "Period depreciation €24,000 per independent estimate",
       "independentChallenge": "Agent 2 uses €24,000 depreciation, while requesting the missing underlying calculation.",
-      "studentReasoning": "The cited transaction and third-party evidence support the stated treatment. Related decision IDs describe the same entry and must not be added twice. ",
+      "studentReasoning": "I accepted €24,000 as the best available period-depreciation estimate. Depreciation expense and accumulated depreciation increase by €24,000, and net PPE, profit and equity decrease by €24,000. Cash is unaffected. I assigned medium confidence because the underlying useful-life schedule was not provided, so the amount is less certain than a balance verified directly from bank or third-party evidence.",
       "statementEffect": {
         "profit": -24000,
         "cash": 0,
@@ -1272,7 +1293,8 @@
       "firstAIProposal": "Period depreciation €24,000 per independent estimate",
       "agent2Position": "Agent 2 uses €24,000 depreciation, while requesting the missing underlying calculation.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I accepted €24,000 as the best available period-depreciation estimate. Depreciation expense and accumulated depreciation increase by €24,000, and net PPE, profit and equity decrease by €24,000. Cash is unaffected. I assigned medium confidence because the underlying useful-life schedule was not provided, so the amount is less certain than a balance verified directly from bank or third-party evidence."
     },
     {
       "id": "D075",
@@ -1288,7 +1310,7 @@
       "confidence": "medium",
       "aiProposal": "Closing inventory €121,000, with €9,000 conflict.",
       "independentChallenge": "Agent 2 uses €121,000 saleable counted inventory and presents €9,000 as an unresolved reconciliation item.",
-      "studentReasoning": "I certify €121,000 closing inventory because the 31 August physical count supports €143,000 gross stock and external evidence establishes that €22,000 is unsaleable. The €112,000 movement result depends on the conflicting €405,000 operations record and remains a disclosed sensitivity.",
+      "studentReasoning": "I accepted €121,000 as closing inventory because the physical count identified €143,000 of gross stock at 31 August, less €22,000 of unsaleable damaged inventory. This is consistent with my primary choice of €396,000 consumption. If the €405,000 consumption alternative is later confirmed, closing inventory would be €112,000, while profit and equity would each be €9,000 lower. Until resolved, the €9,000 difference remains separately disclosed rather than mixed into the primary statements.",
       "statementEffect": {
         "profit": 9000,
         "cash": 0,
@@ -1300,7 +1322,8 @@
       "firstAIProposal": "Closing inventory €121,000, with €9,000 conflict.",
       "agent2Position": "Agent 2 uses €121,000 saleable counted inventory and presents €9,000 as an unresolved reconciliation item.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I accepted €121,000 as closing inventory because the physical count identified €143,000 of gross stock at 31 August, less €22,000 of unsaleable damaged inventory. This is consistent with my primary choice of €396,000 consumption. If the €405,000 consumption alternative is later confirmed, closing inventory would be €112,000, while profit and equity would each be €9,000 lower. Until resolved, the €9,000 difference remains separately disclosed rather than mixed into the primary statements."
     },
     {
       "id": "D076",
@@ -1500,7 +1523,7 @@
       "confidence": "medium",
       "aiProposal": "Use corrected accounts for board review with explicit €9,000 inventory and €45,000 opening-AP qualifications; student approval remains pending",
       "independentChallenge": "Agent 2 recommends board review only, with unresolved inventory and inferred opening payable clearly disclosed.",
-      "studentReasoning": "I reviewed all 100 decisions and the supporting schedules. The primary accounts consistently use €396,000 consumption, a €22,000 stock write-down, zero evidenced insurance, and the equity roll-forward from €170,000 to €134,000. The remaining uncertainties are disclosed rather than hidden.",
+      "studentReasoning": "I approved the corrected accounts because the primary statements use the strongest available evidence and separately disclose rather than hide the unresolved €9,000 inventory conflict, inferred €45,000 opening AP and zero-evidence insurance treatment. The balance sheet reconciles as €406,000 liabilities plus €134,000 equity equals €540,000 assets. I did not accept management’s €312,000 profit because it omits evidence-supported accounting corrections. The reconstructed €74,000 profit reconciles through the recognised costs and €12,000 interest; if €405,000 inventory consumption is later confirmed, profit would decrease to €65,000.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1512,7 +1535,8 @@
       "firstAIProposal": "Use corrected accounts for board review with explicit €9,000 inventory and €45,000 opening-AP qualifications; student approval remains pending",
       "agent2Position": "Agent 2 recommends board review only, with unresolved inventory and inferred opening payable clearly disclosed.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I approved the corrected accounts because the primary statements use the strongest available evidence and separately disclose rather than hide the unresolved €9,000 inventory conflict, inferred €45,000 opening AP and zero-evidence insurance treatment. The balance sheet reconciles as €406,000 liabilities plus €134,000 equity equals €540,000 assets. I did not accept management’s €312,000 profit because it omits evidence-supported accounting corrections. The reconstructed €74,000 profit reconciles through the recognised costs and €12,000 interest; if €405,000 inventory consumption is later confirmed, profit would decrease to €65,000."
     },
     {
       "id": "D092",
@@ -1626,7 +1650,7 @@
       "confidence": "medium",
       "aiProposal": "Reject management earn-out; use €72,000 primary profit, subject to €9,000 uncertainty.",
       "independentChallenge": "Agent 2 rejects management earn-out and recommends €74,000 primary profit, subject to inventory uncertainty.",
-      "studentReasoning": "I reject the unreconciled management profit. The certified primary profit is €74,000 and ties to the €121,000 inventory balance and €134,000 closing equity; the €405,000 consumption sensitivity would reduce profit and equity by €9,000.",
+      "studentReasoning": "I rejected management’s €312,000 profit because it was not supported by the complete evidence. After incorporating the evidence-supported adjustments, including inventory costs, payroll, depreciation, the R-17 bad debt and the legal provision, the reconstructed profit is €74,000. Owner distributions of €110,000 are not expenses and do not reduce profit. If the alternative €405,000 inventory consumption were confirmed, COGS would increase by €9,000 and profit would fall from €74,000 to €65,000.",
       "statementEffect": {
         "profit": 0,
         "cash": 0,
@@ -1638,7 +1662,8 @@
       "firstAIProposal": "Reject management earn-out; use €72,000 primary profit, subject to €9,000 uncertainty.",
       "agent2Position": "Agent 2 rejects management earn-out and recommends €74,000 primary profit, subject to inventory uncertainty.",
       "effectBasis": "Incremental effect against the rejected treatment or Agent 1 for disputes; presentation-only decisions have zero total effect. Duplicate underlying transactions across IDs must not be added.",
-      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+      "certificationStatus": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations.",
+      "columnG": "I rejected management’s €312,000 profit because it was not supported by the complete evidence. After incorporating the evidence-supported adjustments, including inventory costs, payroll, depreciation, the R-17 bad debt and the legal provision, the reconstructed profit is €74,000. Owner distributions of €110,000 are not expenses and do not reduce profit. If the alternative €405,000 inventory consumption were confirmed, COGS would increase by €9,000 and profit would fall from €74,000 to €65,000."
     }
   ],
   "schedules": {
@@ -1883,5 +1908,11 @@
       "Tighten customer credit approval and collection, beginning with R-17 and outstanding balances."
     ],
     "certification": "Certified by Karina Vasiljeva on 21 September 2026 after personal review of all 100 decisions, supporting schedules and final reconciliations."
+  },
+  "reviewUpdate": {
+    "updatedOn": "2026-09-23",
+    "field": "studentReasoning",
+    "spreadsheetColumn": "G",
+    "description": "All 25 material judgments contain student-specific reasoning and the financial effect of the accepted treatment."
   }
 }
